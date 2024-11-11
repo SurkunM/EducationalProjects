@@ -1,6 +1,6 @@
 ﻿namespace CsvTask;
 
-internal class CsvMain
+internal class CsvMain //TODO: Доделать для файла "htmlFile".
 {
     public static void ConvertTextToCsv(string inputFile, string outputFile)
     {

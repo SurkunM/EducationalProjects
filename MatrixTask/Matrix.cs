@@ -3,7 +3,7 @@ using VectorTask;
 
 namespace MatrixTask;
 
-internal class Matrix
+internal class Matrix //TODO: Замечания в письме!
 {
     public Vector[] VectorsMatrix { get; set; }
 
