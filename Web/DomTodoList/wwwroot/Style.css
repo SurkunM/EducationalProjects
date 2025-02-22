@@ -1,0 +1,100 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.todo-list-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    border: #009C86 solid 5px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: #676565;
+}
+
+.todo-list-content {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.todo-list-content > h1 {
+    color: #009C86;
+}
+
+.new-todo-form > * {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+.new-todo-form .new-todo-text {
+    display: block;
+}
+
+.todo-form-button:hover {
+    background-color: #2DAEE6;
+}
+
+.todo-form-button {
+    display: inline-block;
+    color: #FFF;
+    background-color: #388DB2;
+    border: none;
+    padding: 3px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.todo-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.todo-list > li + li {
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color: #FA5959;
+}
+
+.delete-button {
+    background-color: #F00;
+}
+
+.error-message {
+    color: #F00;
+    display: none;
+}
+
+.invalid ~ .error-message {
+    display: block;
+}
+
+.invalid {
+    border: #F00 solid 1px;
+    outline: #F00 solid 1px;
+}
+
+.invalid ~ .new-todo-form .new-todo-text {
+    color: #F00;
+}
+
+.todo-list-buttons {
+    float: right;
+    display: inline;
+    vertical-align: middle;
+}
+
+.todo-list-buttons > button {
+    margin: 0 0 0 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
