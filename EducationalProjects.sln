@@ -30,7 +30,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper.Gui", "Desktop\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper.Logic", "Desktop\MinesweeperTask\Minesweeper.Logic\Minesweeper.Logic.csproj", "{373A8360-A051-497A-81B2-B5F91E18A012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListHomeTask", "Desktop\ArrayListHomeTask\ArrayListHomeTask.csproj", "{8F2DEE21-41B1-4B7D-8B5E-09AFA5A210DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinesListHomeTask", "Desktop\ArrayListHomeTask\LinesListHomeTask.csproj", "{8F2DEE21-41B1-4B7D-8B5E-09AFA5A210DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTask", "Sorting\SortingTask\SortingTask.csproj", "{CEB4FF9A-AD25-404C-858F-563F70C44285}"
 EndProject
