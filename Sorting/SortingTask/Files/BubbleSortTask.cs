@@ -1,6 +1,6 @@
 ﻿namespace SortingTask.Files;
 
-internal class BubbleSortTask
+public class BubbleSortTask
 {
     public static void BubbleSort(int[] array)
     {

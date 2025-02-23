@@ -6,14 +6,26 @@ internal class SortingMain
 {
     static void Main(string[] args)
     {
-        int[] array = { 5, 10, 3, 2, 6, 8, 14, 7 };
+        int[] array1 = { 10, 2, 3, 6, 8, 1, 7, 12, 10 };
 
-        QuickSortTask.QuickSort(array, 0, array.Length - 1);
-        Console.WriteLine("Быстрая сортировка: {0}", string.Join(", ", array));
+        QuickSortTask.QuickSort(array1, 0, array1.Length - 1);
+        Console.WriteLine("Быстрая сортировка: {0}", string.Join(", ", array1));
 
-        int[] arrayHeap = { 10, 2, 3, 6, 8, 1, 7, 12, 10 };
+        int[] array2 = { 10, 2, 3, 6, 8, 1, 7, 12, 10 };
 
-        PyramidSortTask.HeapSort(arrayHeap);
-        Console.WriteLine("Сортировка кучей: {0}", string.Join(", ", arrayHeap));
+        PyramidSortTask.HeapSort(array2);
+        Console.WriteLine("Сортировка кучей: {0}", string.Join(", ", array2));
+
+        int[] array3 = { 10, 2, 3, 6, 8, 1, 7, 12, 10 };
+        SelectionSortTask.SelectionSort(array3);        
+
+        int[] array4 = { 10, 2, 3, 6, 8, 1, 7, 12, 10 };
+        BubbleSortTask.BubbleSort(array4);        
+
+        int[] array5 = { 10, 2, 3, 6, 8, 1, 7, 12, 10 };
+        InsertionSortTask.InsertionSort(array5);        
+
+        int neededNumber = 2;
+        var index = BinarySearchTask.BinarySearch(array4, neededNumber);        
     }
 }

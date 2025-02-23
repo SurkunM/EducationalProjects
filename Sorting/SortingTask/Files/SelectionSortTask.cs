@@ -1,6 +1,6 @@
 ﻿namespace SortingTask.Files;
 
-internal class SelectionSortTask
+public class SelectionSortTask
 {
     public static void SelectionSort(int[] array)
     {
