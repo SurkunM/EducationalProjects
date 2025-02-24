@@ -2,7 +2,12 @@
 
 public class QuickSortTask
 {
-    public static void QuickSort(int[] array, int left, int right)
+    public static void QuickSort(int[] array)
+    {
+        QuickSortRecursion(array, 0, array.Length - 1);
+    }
+
+    private static void QuickSortRecursion(int[] array, int left, int right)
     {
         if (right <= left)
         {
@@ -50,12 +55,12 @@ public class QuickSortTask
 
         if (i < right)
         {
-            QuickSort(array, i, right);
+            QuickSortRecursion(array, i, right);
         }
 
         if (j > left)
         {
-            QuickSort(array, left, j);
+            QuickSortRecursion(array, left, j);
         }
     }
 }
