@@ -40,8 +40,6 @@
             }
         },
 
-        emits: {
-            "delete": null
-        }
+        emits: ["delete"]
     }
 </script>

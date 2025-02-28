@@ -4675,6 +4675,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="VueExpress\frontend\css\" />
 	  <Folder Include="VueExpress\public\" />
 	</ItemGroup>
 
