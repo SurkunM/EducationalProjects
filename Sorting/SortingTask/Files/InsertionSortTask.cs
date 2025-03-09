@@ -1,6 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace SortingTask.Files;
+﻿namespace SortingTask.Files;
 
 internal class InsertionSortTask
 {
@@ -24,5 +22,4 @@ internal class InsertionSortTask
             }
         }
     }
-
 }
