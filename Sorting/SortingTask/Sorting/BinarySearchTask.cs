@@ -1,4 +1,4 @@
-﻿namespace SortingTask.Files;
+﻿namespace SortingTask.Sorting;
 
 public class BinarySearchTask
 {

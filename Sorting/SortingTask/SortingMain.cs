@@ -1,4 +1,4 @@
-﻿using SortingTask.Files;
+﻿using SortingTask.Sorting;
 
 namespace SortingTask;
 
